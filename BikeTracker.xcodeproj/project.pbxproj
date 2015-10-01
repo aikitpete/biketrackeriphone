@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		36E4543519FB0254007D5908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E4543419FB0254007D5908 /* main.m */; };
-		36E4543819FB0254007D5908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E4543719FB0254007D5908 /* AppDelegate.m */; };
+		36E4543819FB0254007D5908 /* CFAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E4543719FB0254007D5908 /* CFAAppDelegate.m */; };
 		36E4543B19FB0254007D5908 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E4543A19FB0254007D5908 /* ViewController.m */; };
 		36E4543E19FB0254007D5908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E4543C19FB0254007D5908 /* Main.storyboard */; };
 		36E4544019FB0254007D5908 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E4543F19FB0254007D5908 /* Images.xcassets */; };
 		36E4544319FB0254007D5908 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E4544119FB0254007D5908 /* LaunchScreen.xib */; };
 		36E4544F19FB0254007D5908 /* BikeTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E4544E19FB0254007D5908 /* BikeTrackerTests.m */; };
+		36E4545919FD0A03007D5908 /* MainScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E4545819FD0A03007D5908 /* MainScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +31,8 @@
 		36E4542F19FB0254007D5908 /* BikeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E4543319FB0254007D5908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E4543419FB0254007D5908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36E4543619FB0254007D5908 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		36E4543719FB0254007D5908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36E4543619FB0254007D5908 /* CFAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAAppDelegate.h; sourceTree = "<group>"; };
+		36E4543719FB0254007D5908 /* CFAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAAppDelegate.m; sourceTree = "<group>"; };
 		36E4543919FB0254007D5908 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		36E4543A19FB0254007D5908 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		36E4543D19FB0254007D5908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 		36E4544819FB0254007D5908 /* BikeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E4544D19FB0254007D5908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E4544E19FB0254007D5908 /* BikeTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeTrackerTests.m; sourceTree = "<group>"; };
+		36E4545819FD0A03007D5908 /* MainScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +83,15 @@
 		36E4543119FB0254007D5908 /* BikeTracker */ = {
 			isa = PBXGroup;
 			children = (
-				36E4543619FB0254007D5908 /* AppDelegate.h */,
-				36E4543719FB0254007D5908 /* AppDelegate.m */,
+				36E4543619FB0254007D5908 /* CFAAppDelegate.h */,
+				36E4543719FB0254007D5908 /* CFAAppDelegate.m */,
 				36E4543919FB0254007D5908 /* ViewController.h */,
 				36E4543A19FB0254007D5908 /* ViewController.m */,
 				36E4543C19FB0254007D5908 /* Main.storyboard */,
 				36E4543F19FB0254007D5908 /* Images.xcassets */,
 				36E4544119FB0254007D5908 /* LaunchScreen.xib */,
 				36E4543219FB0254007D5908 /* Supporting Files */,
+				36E4545819FD0A03007D5908 /* MainScreen.xib */,
 			);
 			path = BikeTracker;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E4545919FD0A03007D5908 /* MainScreen.xib in Resources */,
 				36E4543E19FB0254007D5908 /* Main.storyboard in Resources */,
 				36E4544319FB0254007D5908 /* LaunchScreen.xib in Resources */,
 				36E4544019FB0254007D5908 /* Images.xcassets in Resources */,
@@ -220,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E4543B19FB0254007D5908 /* ViewController.m in Sources */,
-				36E4543819FB0254007D5908 /* AppDelegate.m in Sources */,
+				36E4543819FB0254007D5908 /* CFAAppDelegate.m in Sources */,
 				36E4543519FB0254007D5908 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
